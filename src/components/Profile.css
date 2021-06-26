@@ -1,0 +1,41 @@
+h4 {
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  height: 9vh;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+.card {
+  background-color: rgb(238, 67, 76);
+  width: 250px;
+  text-align: center;
+  height: 250px;
+
+  transition: 0.5s;
+}
+ .card img {
+  margin-bottom: 20px;
+  width: 50%;
+  clip-path: circle();
+}
+
+.text {
+  padding: 10px;
+  background-color: #fff;
+
+  /* padding-bottom: 30px; */
+}
+.card:hover {
+  transform: translate(0, -50px);
+  background: gold;
+}
